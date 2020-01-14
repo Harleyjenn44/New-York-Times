@@ -1,5 +1,5 @@
 $(document).ready(function() {
-//http://api.nytimes.com/svc/search/v2/articlesearch.json?q=Obama&api-key=R1a31F4tBjCUaM2ho8GtIFsrSdtXt30M
+
 var nytimes = "http://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=R1a31F4tBjCUaM2ho8GtIFsrSdtXt30M&q="
 $("#searchBtn").on("click", function(){
     let search = $("#search").value();
@@ -12,10 +12,12 @@ $("#searchBtn").on("click", function(){
         console.log(response);
     });
 
-    for (var i=0; i < response.length; i++) {
-        console.log(response[i]);
-    }
+    var headline = response.docs[0].headline.main;
+
 })
  
-
+function getArray(array){
+    for (var i=0; i < getArray.length; i++)
+    $('.whatever').append(array[i].main)
+}
 
