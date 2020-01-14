@@ -1,0 +1,12 @@
+#header{ 
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+h1{
+    background-color: darkblue;
+    height: 100px;
+}
