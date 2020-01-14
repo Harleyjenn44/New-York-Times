@@ -10,3 +10,7 @@ h1{
     background-color: darkblue;
     height: 100px;
 }
+h2{
+    background-color: lightgrey;
+    font-size: unset;
+}
